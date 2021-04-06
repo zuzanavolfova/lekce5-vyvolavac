@@ -41,6 +41,7 @@ function tahnoutJmeno() {
     let vyherniJmeno = jmena[vyherniIndex];
 
     // Vyřadíme vylosované jméno z osudí
+    jmena.splice(vyherniIndex, 1);
 
     // Výherní jméno si uložíme do pole k ostatním výherním
     
