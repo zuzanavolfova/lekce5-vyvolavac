@@ -43,4 +43,10 @@ function tahnoutJmeno() {
     jmena.splice(vyherniIndex, 1);
     // Výherní jméno si uložíme do pole k ostatním výherním
     tazenaJmena.push(vyherniJmeno);
+
+    let vyherce = document.querySelector('#vyherka');
+    vyherce.textContent = vyherniJmeno;
+
+    let seznamVyvolanych = document.querySelector('#seznam');
+    seznamVyvolanych.textContent = tazenaJmena;
 }
