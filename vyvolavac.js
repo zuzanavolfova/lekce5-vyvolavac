@@ -29,7 +29,7 @@ let jmena = [
 
 let tazenaJmena = [];
 let seznamVyvolanych = document.querySelector('#seznam');
-let pocitadlo = document.querySelector('.pocitadlo');
+let pocitadloText = document.querySelector('.pocitadlo');
 let vyherce = document.querySelector('#vyherka');
 
 function tahnoutJmeno() {
@@ -55,18 +55,18 @@ function tahnoutJmeno() {
 
     function pocitadlo() {
         if (tazenaJmena.length === 1) {
-            pocitadlo.textContent = "Jedna slečna už může v klidu odpočívat."
+            pocitadloText.textContent = "Jedna slečna už může v klidu odpočívat."
         } else if (tazenaJmena.length > 1 && tazenaJmena.length < 5) {
-            pocitadlo.textContent = tazenaJmena.length + " slečny jsou mimo nebezpečí"
+            pocitadloText.textContent = tazenaJmena.length + " slečny jsou mimo nebezpečí"
         } else if (tazenaJmena.length > 4)
-            pocitadlo.textContent = tazenaJmena.length + " slečen je mimo nebezpečí"
+            pocitadloText.textContent = tazenaJmena.length + " slečen je mimo nebezpečí"
     }
 
     pocitadlo()
 }
 
 function zacniZnovu() {
-    pocitadlo.textContent = "Nikdo se ještě nepokusil ohromit učitele";
+    pocitadloText.textContent = "Nikdo se ještě nepokusil ohromit učitele";
     seznamVyvolanych.textContent = "Seznam vyvolaných";
     vyherka.textContent = "";
     tazenaJmena.splice(0, tazenaJmena.length);
