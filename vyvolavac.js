@@ -60,6 +60,10 @@ function tahnoutJmeno() {
         } else if (tazenaJmena.length > 4)
             pocitadlo.textContent = tazenaJmena.length + " slečen je mimo nebezpečí"
     }
+
     pocitadlo()
+}
+
+function zacniZnovu() {
 
 }
