@@ -70,30 +70,5 @@ function zacniZnovu() {
     seznamVyvolanych.textContent = "Seznam vyvolaných";
     vyherka.textContent = "";
     tazenaJmena.splice(0, tazenaJmena.length);
-    jmena.push("Markéta",
-        "Kateřina",
-        "Júlia",
-        "Lucie",
-        "Aneta",
-        "Veronika",
-        "Petra",
-        "Olga",
-        "Naďa",
-        "Nikola",
-        "Eva",
-        "Anísa",
-        "Terezia",
-        "Diana",
-        "Anna",
-        "Iva",
-        "Denisa",
-        "Zuzana",
-        "Jana",
-        "Martina",
-        "Lenka",
-        "Iveta",
-        "Pavla",
-        "Lucie",
-        "Kamila",
-        "Soňa")
+    jmena.push("Markéta", "Kateřina", "Júlia", "Lucie", "Aneta", "Veronika", "Petra", "Olga", "Naďa", "Nikola", "Eva", "Anísa", "Terezia", "Diana", "Anna", "Iva", "Denisa", "Zuzana", "Jana", "Martina", "Lenka", "Iveta", "Pavla", "Lucie", "Kamila", "Soňa")
 }
